@@ -1,0 +1,9 @@
+#column_scroll{
+    /* position: relative; */
+    height: 100vh;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+}
+::-webkit-scrollbar {
+    display: none;
+  }

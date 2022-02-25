@@ -1,0 +1,79 @@
+#my-style{
+    padding: 20px;
+}
+#my-row-style{
+    margin-bottom: 30px;
+}
+
+li {
+    list-style: none;
+    font-size: 13px;
+}
+li:before {
+    content:"\2022";
+    font-size:15px;
+    width: 3em;
+    line-height:30px;
+    color: rgb(83, 83, 83);
+  font-weight: bold;
+  display: inline-block; 
+  
+  margin-left: -1em;
+}
+
+#centered {
+    background-color: white;;
+    position: relative;
+    bottom: 48px;
+    left: 96px;
+    /* top: 40%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
+#img-style{
+    position:relative;
+    z-index: 3;
+}
+#overlay-text{
+    background-color: white;
+    position: relative;
+    top: -60px;
+    left: 10px;
+    z-index: 3;
+    text-decoration: line-through;
+}
+
+
+#row{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  #card {
+    /*float: left;*/
+    max-width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  #card > img {
+    margin-bottom: .75rem;
+    width: 100%;
+  }
+  
+  #card-text {
+    font-size: 85%;
+  }
+  
+  /* to hide the scroll bar use this */
+  ::-webkit-scrollbar {
+    display: none;
+ }
+
