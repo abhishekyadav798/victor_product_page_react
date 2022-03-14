@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Footer_2nd_top from './Footer_2nd_top';
 import Footer_lowest from './Footer_lowest';
 
-// import Navbar1 from './Navbar1';
+
 
 import Single_component_hide_and_scroll from './Single_component_hide_and_scroll';
 
