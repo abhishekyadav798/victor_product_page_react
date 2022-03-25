@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div id='foot-style'> 
     <Row>
-      <Col md={6}>
+      <Col md={3}>
 
     
         <h4 >JOIN VICTOR AND GET </h4>  
