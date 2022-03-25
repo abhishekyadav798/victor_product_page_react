@@ -7,7 +7,7 @@ function Bottom_bar() {
     <div id='style-footer'>
         <Row >
 
-            <Col>
+            <Col md={2}>
             <h5 >PRODUCTS</h5>
             <a>Footwear</a><br/>
             <a>Clothing</a><br/>
@@ -15,7 +15,7 @@ function Bottom_bar() {
             <a>Outlet-Sale</a><br/>
             <a>New Arrivals</a>
             </Col>
-            <Col>
+            <Col md={2}>
             <h5>SPORTS</h5>
             <a>Running</a><br/>
             <a>Football</a><br/>
@@ -23,7 +23,7 @@ function Bottom_bar() {
             <a>tennis</a><br/>
             <a>Basketball</a><br/>
             </Col>
-            <Col>
+            <Col md={2}>
             <h5>COLLECTIONS</h5>
             <a>Victor qUICK</a><br/>
             <a>Ultra fast</a><br/>
@@ -31,14 +31,14 @@ function Bottom_bar() {
             <a>Victor color</a><br/>
             <a>Alpha</a><br/>
             </Col>
-            <Col>
+            <Col md={3}>
             <h5>SUPPORT</h5>
             <a>Help</a><br/>
             <a>Customer Services</a><br/>
             <a> Shipping</a><br/>
             <a>Track Order</a><br/>
             </Col>
-            <Col>
+            <Col md={3}>
             <h5>COMPANY INFO</h5>
             <a>About Us</a><br/>
             <a>Victor stories</a><br/>

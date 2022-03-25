@@ -5,16 +5,16 @@
     margin-bottom: 30px;
 }
 
-#specification {
+/* #specification {
     list-style: none;
     font-size: 13px;
     float: right;
-}
-#my_list  {
-    /* content:"\2022"; */
+} */
+#my_list  li {
+    content:"\2022";
     font-size:10px;
     width: 36em;
-    /* line-height:30px; */
+    line-height:30px;
     color: rgb(83, 83, 83);
   font-weight: bold;
   display: inline-block; 
@@ -41,7 +41,7 @@
     top: -60px;
     left: 10px;
     z-index: 3;
-    text-decoration: line-through;
+    text-decoration: none;
 }
 
 

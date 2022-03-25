@@ -1,37 +1,40 @@
 import React from 'react'
+import { Row, Col } from 'reactstrap'
 import './Footer_lowest.css'
 import In from './images/in.svg'
 
-function Footer_lowest() {
+function Footer_lowest () {
   return (
-    <div id='footer-lowest'>
-        <ul>
-        <li>
-        <a href='#'>
-            <img src={In} style={{width:"15px"}}/>
-            <span>   India</span>
-        </a>
-        </li>
+    <div>
+      <Row>
+        <Col md={6}>
+          <a> &#169; victor India Marketing Pvt Limited</a>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={12}>
+          <ul>
+            <li>
+              <a href='#'>
+                <img src={In} style={{ width: '15px' }} />
+                <span> India</span>
+              </a>
+            </li>
 
-        <li>
-        <a href='#'> 
-            <span> Privacy Policy</span>
-        </a>
-        </li>
+            <li>
+              <a href='#'>Privacy Policy</a>
+            </li>
 
-        <li>
-        <a href='#'> 
-            <span>   Terms and Conditions</span>
-        </a>
-        </li>
+            <li>
+              <a href='#'>Terms and Conditions</a>
+            </li>
 
-        <li>
-        <a href='#'>
-            <span>  Cookies</span>
-        </a>
-        </li>
-        </ul>
-        <div>&#169; victor India Marketing Pvt Limited</div>
+            <li>
+              <a href='#'>Cookies</a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
     </div>
   )
 }

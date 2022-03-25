@@ -4,7 +4,7 @@ import './Footer_lowest.css'
 function Footer_2nd_top() {
   return (
     <div>
-    <ul class="row">
+    <ul >
     <li>
     <a><span>Delivery</span></a>
     </li>
